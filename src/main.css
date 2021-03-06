@@ -1,0 +1,56 @@
+:root {
+    --background: #1f1e1d;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--background);
+}
+
+.titulo {
+    margin-top: 5%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-family: Arial;
+}
+
+.botão-click {
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    font-size: 50px;
+    width: 700px;
+    height: 350px;
+}
+
+.botão-reset {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.buton-refrsh {
+    font-size: 30px;
+    width: 700px;
+    height: 50px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-text {
+    margin-top: 50px;
+    color: rgb(100, 98, 98);
+    font-family: arial;
+}
